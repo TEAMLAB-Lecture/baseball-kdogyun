@@ -265,9 +265,9 @@ def main():
     print("Play Baseball")
     random_number = str(get_not_duplicated_three_digit_number())
     print("Random Number is : ", random_number)
-    while True:
         # ===Modify codes below=============
         # 위의 코드를 포함하여 자유로운 수정이 가능함
+    while True:
         user_number = input('Input guess number : ')
         if user_number == str(0):
             break
